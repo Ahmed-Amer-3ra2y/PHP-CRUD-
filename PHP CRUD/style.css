@@ -1,0 +1,47 @@
+/* for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* First Part */
+.custom-shape-divider-bottom-1703839301 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    background-color: black;
+    color: white;
+    z-index: -1;
+}
+
+.custom-shape-divider-bottom-1703839301 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1703839301 .shape-fill {
+    fill: #FFFFFF;
+}
+
+h1{
+    margin: 38vh 0 65vh;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    z-index: 999;
+}
+
+/* Second Part */
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
